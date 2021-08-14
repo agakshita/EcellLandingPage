@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 300;
+    padding: 10px 0;
+}
+.nav-list{
+    /* background-color: hsla(0, 3%, 27%, 0.932); */
+ width: 50%;
+ display: flex;
+ align-items: center;
+}
+.nav-list ul{
+    padding: 5px 4px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 12px 19px;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-list li a:hover{
+    color:coral;
+}
+.logo{
+    padding: 4px 13px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 98px;
+    height: 56px;
+}
+.nav-right{
+    text-align: right;
+    /* background-color: hsla(0, 3%, 27%, 0.932); */
+    width: 50%;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+}
+.account{
+    display: flex;
+    align-items: center;
+}
+.account li{
+    list-style: none;
+    padding: 12px 0;
+    font-size: 20px;
+    margin-left: -200px;
+}
+.account li a{
+    text-decoration: none;
+    color: white;
+}
+.account li a:hover{
+    color:coral;
+}
+
+.account li img{
+    width: 14%;
+    padding-right: 33px;
+}
+.background{
+    background: rgb(12, 78, 62);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+}
+.content{
+    height: 120vh;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 82%;
+    margin: auto;
+    height: 75%;
+}
+.content-right img{
+    height: 350px;
+    width: 885px;
+    display: block;
+    margin: auto;
+}
+.content-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.content-right{
+    width: 90%;
+}
+.content-left h1{
+    padding: 5px 0;
+    font-size: 34px;
+    text-align: left;
+    font-family: sans-serif;
+}
+.btn{
+    border: 2px solid black;
+    padding: 9px 11px;
+    background-color: coral;
+    margin-right: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.description{
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    max-width: 189px;
+}
+.sentence{
+    font-size: 23px;
+    color: white;
+    padding: 5px;
+    max-width: 398px;
+    display: block;
+    margin: auto;
+}
+/* workshop section css */
+.center{
+    text-align: center;
+}
+.main-content{
+    background-color: whitesmoke;
+}
+.heading{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 9px 0;
+    margin: 10px 0;
+}
+#courses{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    /* background-color: rgb(248, 248, 248); */
+}
+#courses .box{
+    margin: 13px 7px;
+    background-color: cadetblue;
+}
+.box img{
+    height: 220px;
+    display: block;
+    margin: auto;
+}
+.subtag{
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 23px;
+    margin-top: 30px ;
+}
+.tag{
+    font-family: sans-serif;
+    padding: 10px 0px;
+    color: white;
+    font-size: 21px;
+}
+
+/*instructors section css*/
+.client{
+    position: relative;
+}
+.client-heading{
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+}
+.client-box{
+    background-color: whitesmoke;
+    display: flex;
+    width: 100%;
+}
+.instruct-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.client-box img{
+    height: 70px;
+    border-radius: 50%;
+}
+.client-item{
+    padding: 27px;
+}
+.instruct-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+.instruct-right p{
+    padding: 14px 61px;
+    font-size: 19px;
+}
+.instruct-btn{
+    background: none;
+    font-size: large;
+    padding: 10px 16px;
+    margin: 15px 0px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.journal-box{
+    padding: 20px;
+    display: flex;
+    background-color: whitesmoke;
+}
+.journal-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.journal-left img{
+    height: 200px;
+    width: 68%;
+}
+.journal-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.journal-right p{
+    font-size: 19px;
+    padding: 20px 0;
+    padding-right: 30px;
+}
+/* footer section css*/
+.footer{
+    
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    background-color: whitesmoke;
+}
+.footer-left{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+}
+.footer-left img{
+    padding: 20px;
+    height: 60px;
+    width: 90px;
+    margin: 0 30px;
+}
+.submit{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.submit textarea{
+    margin-top: 30px;
+}
+.footer-btn{
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: white;
+    padding: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 40%;
+}
+.foot-list{
+    padding: 5px 4px;
+}
+.foot-list li{
+    list-style: none;
+    padding: 12px 19px;
+    font-size: 20px;
+}
+.foot-list li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.foot-list li a:hover{
+    color:coral;
+}
+.left{
+    display: flex;
+    
+}
+.right{
+    display: flex;
+    
+}
+
+/*hamburger navigation*/
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 2px;
+    margin: 5px;
+}
